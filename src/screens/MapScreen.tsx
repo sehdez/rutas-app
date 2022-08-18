@@ -1,11 +1,18 @@
 import React from 'react'
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
+import { Map } from '../components/Map';
+
 
 export const MapScreen = () => {
  
     return (
-        <View>
-            <Text>Home Screen</Text>
+        <View style={ styles.mapa }>
+            <Map />
         </View>
     )
 }
+const styles = StyleSheet.create({
+    mapa:{
+        flex:1,
+    }
+});

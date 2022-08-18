@@ -21,7 +21,7 @@ const App = () => {
                 <StatusBar 
                     translucent= { true }
                     backgroundColor='rgba(180,180,180,0.1)'
-                    barStyle='light-content'
+                    barStyle='dark-content'
                 />
                 <StackNavigator />
             </AppState>

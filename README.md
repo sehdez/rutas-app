@@ -28,6 +28,14 @@
     ```
         npm install --save react-native-vector-icons
     ```
+- ### react-native-maps: [ver guía de instalación](https://github.com/react-native-maps/react-native-maps).
+    ```
+        npm install react-native-maps
+    ```
+- ### react-native-geolocation: [Ver guía de instalación](https://github.com/michalchudziak/react-native-geolocation).
+    ```
+        npm install @react-native-community/geolocation --save
+    ```
 - ### axios
     ```
         npm install axios

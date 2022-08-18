@@ -1,9 +1,9 @@
 import React from 'react'
-import { TouchableOpacity, StyleSheet, ViewStyle, Text } from 'react-native';
+import { TouchableOpacity, StyleSheet, ViewStyle, Text, StyleProp } from 'react-native';
 
 interface Props {
     title: string;
-    style?: ViewStyle;
+    style?: StyleProp<ViewStyle>;
     onPress: () => void;
 }
 
@@ -12,7 +12,7 @@ export const Button = ( {title, onPress, style }: Props ) => {
         <TouchableOpacity
             style={{ 
                 ...styles.button,
-                ...style
+                ...style as any
             }}
             onPress={ onPress }
         >
